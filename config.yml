@@ -1,5 +1,5 @@
 baseURL: "https://anonymous1231-dev.vercel.app/"
-title: Anonymous1231-dev
+title: "Anonymous1231-dev"
 paginate: 5
 theme: PaperMod
 
@@ -59,7 +59,7 @@ params:
       # profile-mode
   profileMode:
     enabled: true # needs to be explicitly set
-    title: Anonymous1231-dev Website
+    title: "Anonymous1231-dev's Website"
     subtitle: "Hello"
     imageUrl: "image.jpg"
     imageWidth: 120
