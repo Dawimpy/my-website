@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Anonymous1231-dev Website
     subtitle: "Hello"
-    imageUrl: "ststic/image.jpg"
+    imageUrl: "image.jpg"
     imageWidth: 120
     imageHeight: 120
     imageTitle: my image
