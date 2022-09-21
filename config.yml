@@ -1,0 +1,108 @@
+baseURL: "https://examplesite.com/"
+title: Anonymous1231-dev
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+  #googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Anonymous1231-dev
+  description: "ExampleSite description"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: "Anonymous1231-dev"
+    # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+    #  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+      #  label:
+      #    text: "Home"
+      #    icon: /apple-touch-icon.png
+      #    iconHeight: 35
+
+      # profile-mode
+  profileMode:
+    enabled: true # needs to be explicitly set
+    title: Anonymous1231-dev Website
+    subtitle: "Hello"
+    imageUrl: "image.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: my image
+    buttons:
+      - name: Posts
+        url: /posts
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/Anonymous1231-dev"
+    
+    - name: reddit
+      url: "https://reddit.com/u/NoNameMan1231/"
+
+  analytics:
+    google:
+      SiteVerificationTag: "Anonymous1231-dev"
+    bing:
+      SiteVerificationTag: "Anonymous1231-dev"
+    yandex:
+      SiteVerificationTag: "Anonymous1231-dev"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  
+   
+menu:
+  main:
+    - identifier: Posts
+      name: Posts
+      url: /posts
+      weight: 10
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+# pygmentsUseClasses: true
+# markup:
+#     highlight:
+#         # anchorLineNos: true
+#         codeFences: true
+#         guessSyntax: true
+#         lineNos: true
+#         style: monokai
